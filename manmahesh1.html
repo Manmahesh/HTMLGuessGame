@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Guessing Game</title>
+  </head>
+  <body>
+    <section class="top">
+      <button type="button" class="btn-again">AGAIN!</button>
+      <p class="range">(Between 1 and 20)</p>
+    </section>
+    <h1>This is a Guessing game</h1>
+    <div class="line"></div>
+    <div class="box">?</div>
+
+    <main>
+      <section class="left">
+        <input type="number" class="guess" />
+        <button type="button" class="check-button">CHECK!</button>
+      </section>
+      <section class="right">
+        <p class="message">Start guessing...</p>
+        <p class="label-score">💯 Score: <span class="score">20</span></p>
+        <p class="label-highscore">
+          🥇 Highscore: <span class="highscore">0</span>
+        </p>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

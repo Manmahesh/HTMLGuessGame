@@ -1,0 +1,100 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  position: absolute;
+  font-size: 3rem;
+  width: 50%;
+  left: 32%;
+  top: 20%;
+  color: aliceblue;
+}
+
+.top {
+  display: flex;
+  flex-direction: inherit;
+  justify-content: space-between;
+}
+
+.btn-again {
+  border-color: ivory;
+  font-size: 200%;
+  width: 10%;
+  cursor: pointer;
+}
+
+.range {
+  color: aliceblue;
+  font-size: 120%;
+}
+
+.box {
+  background: #eee;
+  color: #333;
+  top: 30%;
+  font-size: 4rem;
+  width: 10rem;
+  padding: 1rem 0rem;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.line {
+  background: #eee;
+  color: #333;
+  top: 45%;
+  width: 85rem;
+  padding: 0.2rem 0rem;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+main {
+  margin-top: 26%;
+  display: flex;
+  flex-direction: inherit;
+  justify-content: space-around;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+p {
+  color: #eee;
+}
+
+.guess {
+  width: 50%;
+  border: 4px solid #eee;
+  background-color: black;
+  padding: 10%;
+  color: #eee;
+  font-size: 150%;
+}
+
+.check-button {
+  width: 70%;
+  padding: 1rem;
+  cursor: pointer;
+  margin-bottom: 10%;
+}
+
+.message {
+  font-size: 200%;
+}
+
+.label-score {
+  font-size: 150%;
+}
+
+.label-highscore {
+  font-size: 150%;
+}
